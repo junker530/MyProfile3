@@ -21,4 +21,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/meta-transformed.glb')
+useGLTF.preload('./meta-transformed.glb')

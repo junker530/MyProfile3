@@ -21,4 +21,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/brain-transformed.glb')
+useGLTF.preload('./brain-transformed.glb')

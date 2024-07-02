@@ -20,4 +20,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/gamecon-transformed.glb')
+useGLTF.preload('./gamecon-transformed.glb')

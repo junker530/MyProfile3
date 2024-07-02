@@ -20,4 +20,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/reactlogo-transformed.glb')
+useGLTF.preload('./reactlogo-transformed.glb')
