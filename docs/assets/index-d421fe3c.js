@@ -4545,7 +4545,7 @@ vec3 texelOld = texture2D(previousShadowMap, vUv).rgb;
 `,mee=Bt.div`
   flex:1;
 
-`,gee=()=>Je(oee,{children:pn(aee,{children:[Je(mee,{children:pn(uc,{camera:{fov:25,position:[5,5,5]},children:[Je(cc,{enableZoom:!1,autoRotate:!0,minPolarAngle:0,maxPolarAngle:Math.PI/2.1}),Je("ambientLight",{intensity:.5}),Je("directionalLight",{position:[10,10,5]}),Je(see,{})]})}),pn(lee,{children:[Je(uee,{children:"Think. Make. Solve."}),pn(cee,{children:[Je(fee,{src:"./img/line.png"}),Je(hee,{children:"Who I Am"})]}),Je(dee,{children:"an engineer with passion for creating interesting things"}),Je(pee,{children:"See my History"})]})]})});function vee(n){const{nodes:e,materials:t}=_s("/brain-transformed.glb");return pn("group",{...n,dispose:null,children:[Je("mesh",{geometry:e.Object_5.geometry,material:t["Material.001"],position:[0,1,-.4],scale:.408}),Je("mesh",{geometry:e.Object_7.geometry,material:t["Material.002"],position:[0,1,-.4],scale:.408})]})}_s.preload("/brain-transformed.glb");const yee=Bt.div`
+`,gee=()=>Je(oee,{children:pn(aee,{children:[Je(mee,{children:pn(uc,{camera:{fov:25,position:[5,5,5]},children:[Je(cc,{enableZoom:!1,autoRotate:!0,minPolarAngle:0,maxPolarAngle:Math.PI/2.1}),Je("ambientLight",{intensity:.5}),Je("directionalLight",{position:[10,10,5]}),Je(see,{})]})}),pn(lee,{children:[Je(uee,{children:"Think. Make. Solve."}),pn(cee,{children:[Je(fee,{src:"./img/line.png"}),Je(hee,{children:"Who I Am"})]}),Je(dee,{children:"an engineer with passion for creating interesting things"}),Je(pee,{children:"See my History"})]})]})});function vee(n){const{nodes:e,materials:t}=_s("./test-brain-transformed.glb");return pn("group",{...n,dispose:null,children:[Je("mesh",{geometry:e.Object_5.geometry,material:t["Material.001"],position:[0,1,-.4],scale:.408}),Je("mesh",{geometry:e.Object_7.geometry,material:t["Material.002"],position:[0,1,-.4],scale:.408})]})}_s.preload("./test2-brain-transformed.glb");const yee=Bt.div`
   width: 200px;
   height: 70px;
   padding: 20px;
@@ -4554,7 +4554,7 @@ vec3 texelOld = texture2D(previousShadowMap, vUv).rgb;
   position: absolute;
   right: 50px;
   top: 100px;
-`,_ee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(vee,{})}),Je(cc,{enableZoom:!1})]}),Je(yee,{children:"学士、修士を通じて機械学習、深層学習、強化学習などAIを用いたソフトウェアを開発"})]});function xee(n){const{nodes:e,materials:t}=_s("/robot-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e.CHARACTER__0.geometry,material:t["Scene_-_Root"],position:[0,2.656,-11],rotation:[-Math.PI/2,0,0]})})}_s.preload("/robot-transformed.glb");const See=Bt.div`
+`,_ee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(vee,{})}),Je(cc,{enableZoom:!1})]}),Je(yee,{children:"学士、修士を通じて機械学習、深層学習、強化学習などAIを用いたソフトウェアを開発"})]});function xee(n){const{nodes:e,materials:t}=_s("./robot-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e.CHARACTER__0.geometry,material:t["Scene_-_Root"],position:[0,2.656,-11],rotation:[-Math.PI/2,0,0]})})}_s.preload("./robot-transformed.glb");const See=Bt.div`
   width: 200px;
   height: 70px;
   padding: 20px;
@@ -4563,7 +4563,7 @@ vec3 texelOld = texture2D(previousShadowMap, vUv).rgb;
   position: absolute;
   right: 50px;
   top: 100px;
-`,Aee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(xee,{})}),Je(cc,{enableZoom:!1})]}),Je(See,{children:"ロボットを遠隔操作するための誰にでも直感的に操作できるインターフェースを開発"})]});function Mee(n){const{nodes:e,materials:t}=_s("/meta-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e.buttons_L_low_meta_quest_3_mat_0.geometry,material:t.meta_quest_3_mat,position:[0,0,0],rotation:[.381,.285,.016],scale:.041})})}_s.preload("/meta-transformed.glb");const wee=Bt.div`
+`,Aee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(xee,{})}),Je(cc,{enableZoom:!1})]}),Je(See,{children:"ロボットを遠隔操作するための誰にでも直感的に操作できるインターフェースを開発"})]});function Mee(n){const{nodes:e,materials:t}=_s("./meta-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e.buttons_L_low_meta_quest_3_mat_0.geometry,material:t.meta_quest_3_mat,position:[0,0,0],rotation:[.381,.285,.016],scale:.041})})}_s.preload("./meta-transformed.glb");const wee=Bt.div`
   width: 200px;
   height: 70px;
   padding: 20px;
@@ -4572,7 +4572,7 @@ vec3 texelOld = texture2D(previousShadowMap, vUv).rgb;
   position: absolute;
   right: 50px;
   top: 100px;
-`,Eee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(Mee,{})}),Je(cc,{enableZoom:!1})]}),Je(wee,{children:"「離れた人々にも体験を届け、生活を豊かに」をモットーにリモートでもリアルな体験を提供"})]});function Cee(n){const{nodes:e,materials:t}=_s("/gamecon-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e.Object_4.geometry,material:t.PaletteMaterial001,position:[.3,.186,-.452],scale:[.12,.2225,.12]})})}_s.preload("/gamecon-transformed.glb");const Tee=Bt.div`
+`,Eee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(Mee,{})}),Je(cc,{enableZoom:!1})]}),Je(wee,{children:"「離れた人々にも体験を届け、生活を豊かに」をモットーにリモートでもリアルな体験を提供"})]});function Cee(n){const{nodes:e,materials:t}=_s("./gamecon-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e.Object_4.geometry,material:t.PaletteMaterial001,position:[.3,.186,-.452],scale:[.12,.2225,.12]})})}_s.preload("./gamecon-transformed.glb");const Tee=Bt.div`
   width: 200px;
   height: 70px;
   padding: 20px;
@@ -4581,7 +4581,7 @@ vec3 texelOld = texture2D(previousShadowMap, vUv).rgb;
   position: absolute;
   top: 100px;
   right: 50px;
-`,bee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(Cee,{})}),Je(cc,{enableZoom:!1})]}),Je(Tee,{children:"遊ぶ楽しさと作る楽しさの両方を追求"})]});function Ree(n){const{nodes:e,materials:t}=_s("/reactlogo-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e["React-Logo_Material002_0"].geometry,material:t["Material.002"],position:[0,.079,.181],rotation:[0,0,-Math.PI/2],scale:[.392,.392,.527]})})}_s.preload("/reactlogo-transformed.glb");const Pee=Bt.div`
+`,bee=()=>pn(ah,{children:[pn(uc,{children:[Je(Am,{environment:"city",intensity:.6,children:Je(Cee,{})}),Je(cc,{enableZoom:!1})]}),Je(Tee,{children:"遊ぶ楽しさと作る楽しさの両方を追求"})]});function Ree(n){const{nodes:e,materials:t}=_s("./reactlogo-transformed.glb");return Je("group",{...n,dispose:null,children:Je("mesh",{geometry:e["React-Logo_Material002_0"].geometry,material:t["Material.002"],position:[0,.079,.181],rotation:[0,0,-Math.PI/2],scale:[.392,.392,.527]})})}_s.preload("./reactlogo-transformed.glb");const Pee=Bt.div`
   width: 200px;
   height: 70px;
   padding: 20px;
