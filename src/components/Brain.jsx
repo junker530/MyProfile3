@@ -6,7 +6,7 @@ Author: tkkjee (https://sketchfab.com/tkkjee)
 License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 Source: https://sketchfab.com/3d-models/hud-brain-25ed09ee28404810a009df6f4b3a5fda
 Title: HUD Brain
-*/
+*///
 
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
