@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://junker530.github.io",
+  "homepage": "http://junker530.github.io/MyProfile3",
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
