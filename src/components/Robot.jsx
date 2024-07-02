@@ -12,7 +12,7 @@ import { useGLTF } from '@react-three/drei'
 import React from 'react'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/robot-transformed.glb')
+  const { nodes, materials } = useGLTF('./robot-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.CHARACTER__0.geometry} material={materials['Scene_-_Root']} position={[0, 2.656, -11]} rotation={[-Math.PI / 2, 0, 0]} />

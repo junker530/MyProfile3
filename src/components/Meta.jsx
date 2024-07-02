@@ -12,7 +12,7 @@ import { useGLTF } from '@react-three/drei'
 import React from 'react'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/meta-transformed.glb')
+  const { nodes, materials } = useGLTF('./meta-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.buttons_L_low_meta_quest_3_mat_0.geometry} material={materials.meta_quest_3_mat} position={[0, 0, 0]} rotation={[0.381, 0.285, 0.016]} scale={0.041} />

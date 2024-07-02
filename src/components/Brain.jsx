@@ -12,7 +12,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/brain-transformed.glb')
+  const { nodes, materials } = useGLTF('./brain-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_5.geometry} material={materials['Material.001']} position={[0, 1.0, -0.4]} scale={0.408} />

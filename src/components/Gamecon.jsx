@@ -12,7 +12,7 @@ import { useGLTF } from '@react-three/drei'
 import React from 'react'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/gamecon-transformed.glb')
+  const { nodes, materials } = useGLTF('./gamecon-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_4.geometry} material={materials.PaletteMaterial001} position={[0.3, 0.186, -0.452]} scale={[0.12, 0.2225, 0.12]} />
