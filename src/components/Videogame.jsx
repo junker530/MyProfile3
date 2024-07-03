@@ -12,7 +12,7 @@ const Desc = styled.div`
   border-radius: 10px;
   position: absolute;
   top: 100px;
-  right: 50px;
+  right: 0px;
 `
 
 const Videogame = () => {
